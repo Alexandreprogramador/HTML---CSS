@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="imagem/Hat.ico" type="image/x-icon">
+    <title>Seletores Personalizados</title>
+    <style>
+        div > p {
+            display: none;
+        }
+        div:hover {
+            color: red;
+        }
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Exemplos de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>Texto escondido</p>
+    </div>
+    <p>Fim do exemplo</p>
+</body>
+</html>

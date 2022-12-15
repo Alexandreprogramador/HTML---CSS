@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="imagem/Hat.ico" type="image/x-icon">
+    <title>Seletores Personalizados</title>
+    <style>
+        body {
+            color: rgb(153, 44, 216);
+        }
+        h1, h2 {
+            color: black;
+        }
+        h1:hover {
+            color: brown;
+        }
+        .basico {
+            color: blue;
+        }
+        #avançado {
+            color: green;
+        }
+        p {
+            color: brown;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>TÍTULO PRINCIPAL</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolorum tempora, quisquam aspernatur neque quo eius debitis quia rerum, deleniti aliquam error cumque exercitationem voluptas quis, accusamus a reiciendis laudantium?</p>
+    <h2 class="basico">Título secundário</h2>
+    <p id="avançado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, perferendis hic. Nobis magnam nam dolor non omnis. Similique soluta corrupti, cumque suscipit reiciendis vel quae omnis quisquam, at explicabo culpa.</p>
+    <div>
+        Passe o mouse aqui
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni minus voluptatem adipisci distinctio libero perspiciatis nulla rerum cupiditate fugiat deleniti porro iure, nihil accusamus, aspernatur nisi quidem, voluptatibus officia? Nemo?</p>
+
+    </div>
+     
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="Imagens/Hat.ico" type="image/x-icon">
+    <title>Midias em HTML</title>
+    
+</head>
+<body>
+<h1>Imagens dinâmicas</h1>
+<p>Tente abrir esse site em vários 
+    dispositivos diferentes ou simplesmente
+    aumente e diminua o tamanho do seu
+    navegador</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="Imagens/foto-P.png" type="Image/png">
+        <source media="(max-width: 1000px)" srcset="Imagens/foto-M.png" type="Image/png">
+        <img src="Imagens/foto-G.png" alt="imagem flexivel">
+    </picture>
+    <h1>REPRODUZINDO AUDIO</h1>
+    <P>Vamos aprender a reproduzir áudios em HTML</P>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/audio-relaxamento.mp3" type="audio/mpeg">
+        <source src="media/audio-relaxamento.ogg" type="audio/ogg">
+        <source src="media/audio-relaxamento.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue produzir áudio.</p>
+    </audio>
+    <h1>APRENDENDO SOBRE VÍDEOS</h1>
+    <P>Vamos carregar alguns vídeos</P>
+    <video src="" width="500" controls></video>
+</body>
+</html>
