@@ -8,6 +8,7 @@
 
     <style>
         #container {
+            position: relative;
             height: 500px;
             background-color: purple;
             border: 1px black solid;
@@ -15,9 +16,14 @@
         }
 
         #conteudo {
+            position: absolute;
             height: 200px;
+            width: 400px;
             border: 1px black solid;
             background-color: yellow;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
 
     </style>
